@@ -1,5 +1,5 @@
-# eTraM
-This project contains the source code for the [eTraM website](https://eventbasedvision.github.io/eTraM).
+# InterAct-VideoQA
+This project contains the source code for the [InterAct-VideoQA](https://interact-videoqa.github.io/InterActVideoQA/).
 
 # Cite
 If you find eTraM useful for your work please cite:

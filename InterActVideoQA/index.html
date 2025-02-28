@@ -1,392 +1,424 @@
 <!DOCTYPE html>
 <html>
-	<head>
-	  
-		<meta charset="utf-8">
-		<meta name="description" content="eTraM: Event-based Traffic Monitoring Dataset">
-		<meta name="keywords" content="eTraM">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta property="og:image" content="media/eTraM/eTraM_teaser.png">
-		<meta property="og:url" content="https://eventbasedvision.github.io/eTraM/">
-		<meta property="og:description" content="Event-based Traffic Monitoring Dataset" >
-		  
-		<title>
-			eTraM
-		</title>
-		  
-		<!--<link rel="icon" type="image/png" href="media/openscene/logo.png">-->
-		<link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
-		<link rel="stylesheet" href="./media/eTraM/css/bulma.min.css">
-		<link rel="stylesheet" href="./media/eTraM/css/bulma-carousel.min.css">
-		<link rel="stylesheet" href="./media/eTraM/css/bulma-slider.min.css">
-		<link rel="stylesheet" href="./media/eTraM/css/fontawesome.all.min.css">
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-		<link rel="stylesheet" href="./media/eTraM/css/index.css">
+<head>
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<script defer src="./media/eTraM/js/fontawesome.all.min.js"></script>
-		<script src="./media/eTraM/js/bulma-carousel.min.js"></script>
-		<script src="./media/eTraM/js/bulma-slider.min.js"></script>
-		<script src="./media/eTraM/js/index.js"></script>
-		
-	</head>
+	<meta charset="utf-8">
+	<meta name="description" content="InterAct-VideoQA">
+	<meta name="keywords" content="eTraM">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:image" content="media/InterAct/InterAct_teaser.png">
+	<meta property="og:url" content="https://interact-videoqa.github.io/InterActVideoQA/">
+	<meta property="og:description" content="Event-based Traffic Monitoring Dataset">
 
-  <style>
-    .publication-videos {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
+	<title>
+		InterActVideoQA
+	</title>
 
-    .video-wrapper {
-      flex: 0 0 32%;
-      padding: 8px;
-    }
+	<!--<link rel="icon" type="image/png" href="media/openscene/logo.png">-->
+	<link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
-    .video-wrapper iframe {
-      width: 100%;
-      height: 240px;
-    }
-  </style>
-	<body>
+	<link rel="stylesheet" href="./media/InterAct/css/bulma.min.css">
+	<link rel="stylesheet" href="./media/InterAct/css/bulma-carousel.min.css">
+	<link rel="stylesheet" href="./media/InterAct/css/bulma-slider.min.css">
+	<link rel="stylesheet" href="./media/InterAct/css/fontawesome.all.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+	<link rel="stylesheet" href="./media/InterAct/css/index.css">
 
-		<nav class="navbar" role="navigation" aria-label="main navigation">
-			<div class="navbar-brand">
-				<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-				  <span aria-hidden="true"></span>
-				  <span aria-hidden="true"></span>
-				  <span aria-hidden="true"></span>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script defer src="./media/InterAct/js/fontawesome.all.min.js"></script>
+	<script src="./media/InterAct/js/bulma-carousel.min.js"></script>
+	<script src="./media/InterAct/js/bulma-slider.min.js"></script>
+	<script src="./media/InterAct/js/index.js"></script>
+
+</head>
+
+<style>
+	.publication-videos {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.video-wrapper {
+		flex: 0 0 32%;
+		padding: 8px;
+	}
+
+	.video-wrapper iframe {
+		width: 100%;
+		height: 240px;
+	}
+</style>
+
+<body>
+
+	<nav class="navbar" role="navigation" aria-label="main navigation">
+		<div class="navbar-brand">
+			<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+			</a>
+		</div>
+
+
+		<div class="navbar-menu">
+			<div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+				<a class="navbar-item" href="https://eventbasedvision.github.io/" target="_blank">
+					<span class="icon">
+						<i class="fas fa-home"></i>
+					</span>
 				</a>
-			</div>
-	  
-	  
-			<div class="navbar-menu">
-				<div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-					<a class="navbar-item" href="https://eventbasedvision.github.io/" target="_blank">
-						<span class="icon">
-							<i class="fas fa-home"></i>
-						</span>
+
+				<div class="navbar-item has-dropdown is-hoverable">
+					<a class="navbar-link">
+						More Research
 					</a>
 
-					<div class="navbar-item has-dropdown is-hoverable">
-						<a class="navbar-link">
-							More Research
+					<div class="navbar-dropdown">
+						<a class="navbar-item" href="https://eventbasedvision.github.io/SEVD/" target="_blank">
+							SEVD - CVPRW 2024
 						</a>
-						
-						<div class="navbar-dropdown">
-							<a class="navbar-item" href="https://eventbasedvision.github.io/SEVD/" target="_blank">
-								SEVD - CVPRW 2024 
-							</a>
-						</div>
 					</div>
 				</div>
 			</div>
-		</nav>
+		</div>
+	</nav>
 
-		
-		<section class="hero">
-			<div class="hero-body">
-				<div class="container is-max-desktop">
+
+	<section class="hero">
+		<div class="hero-body">
+			<div class="container is-max-desktop">
+				<div class="column has-text-centered">
+
+					<h1 class="title is-2 publication-title">
+						eTraM: Event-based Traffic Monitoring Dataset
+					</h1>
+
+					<div class="is-size-3 publication-authors">
+						<h3 class="title is-3">CVPR 2024 (Highlight)</h3>
+					</div>
+
+					<div class="is-size-5 publication-authors">
+
+
+						<span class="author-block">
+							<a href="https://github.com/joe-rabbit">Joseph Raj
+								Vishal</a><sup>*</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						</span>
+
+						<span class="author-block">
+							<a href="https://chakravarthi589.github.io/">Bharatesh Chakravarthi</a><sup>*</sup>
+						</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+						<span class="author-block">
+							<a href="https://github.com/dbasina">Divesh Basina</a><sup>*</sup>
+						</span><br>
+
+						<span class="author-block">
+							<a href="https://github.com/">Kathak Naik</a>
+						</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+						<span class="author-block">
+							<a href="https://github.com/">Rutuja Patil</a>
+						</span>
+
+						<br>
+						<span class="author-block">
+							<a href="https://github.com/">Rutuja Patil</a>
+						</span>
+						<span class="author-block">
+							<a href="https://github.com/">Manas Srinivas Gowda</a>
+						</span>
+						<span class="author-block">
+							<a href="https://github.com/">Kaiyuan Tan</a>
+						</span>
+
+					</div>
+
+
+					<div class="is-size-4 publication-authors">
+						<span class="author-block">
+							<b> Arizona State University <b>
+						</span>
+					</div>
+
 					<div class="column has-text-centered">
-											
-						<h1 class="title is-2 publication-title">
-							eTraM: Event-based Traffic Monitoring Dataset
-						</h1>
-						
-						<div class="is-size-3 publication-authors">
-							<h3 class="title is-3">CVPR 2024 (Highlight)</h3>
-						</div>
-						
-						<div class="is-size-5 publication-authors">
-						
-												
-							<span class="author-block">
-								<a href="https://aayush-v.github.io">Aayush Atul Verma</a><sup>*</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<div class="publication-links">
+
+							<span class="link-block">
+								<a href="https://openaccess.thecvf.com/content/CVPR2024/html/Verma_eTraM_Event-based_Traffic_Monitoring_Dataset_CVPR_2024_paper.html"
+									target="_blank" class="button is-normal is-rounded is-dark">
+
+									<span class="icon">
+										<i class="fas fa-file-pdf"></i>
+									</span>
+
+									<span>
+										Paper
+									</span>
+
+								</a>
 							</span>
-							
-							<span class="author-block">
-								<a href="https://chakravarthi589.github.io/">Bharatesh Chakravarthi</a><sup>*</sup>
-							</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-														
-							<span class="author-block">
-								<a href="https://github.com/arpitvaghela">Arpitsinh Vaghela</a><sup>*</sup>
-							</span><br> 
-						
-							<span class="author-block">
-								<a href="https://www.public.asu.edu/~hwei27/">Hua Wei</a>
-							</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-							
-						
-							<span class="author-block">
-								<a href="https://faculty.engineering.asu.edu/yezhouyang/">Yezhou Yang</a>
+
+							<span class="link-block">
+								<a href="https://arxiv.org/abs/2403.19976" target="_blank"
+									class="external-link button is-normal is-rounded is-dark">
+									<span class="icon">
+										<i class="ai ai-arxiv"></i>
+									</span>
+
+									<span>
+										arXiv
+									</span>
+								</a>
 							</span>
-							
+
+							<span class="link-block">
+								<a href="https://github.com/eventbasedvision/eTraM" target="_blank"
+									class="external-link button is-normal is-rounded is-dark">
+
+									<span class="icon">
+										<i class="fab fa-github"></i>
+									</span>
+
+									<span>
+										Code
+									</span>
+								</a>
+							</span>
+
+							<span class="link-block">
+								<a href="https://docs.google.com/forms/d/e/1FAIpQLSfH2LI5oqWWfose-pBC3dsbaAMvRQuv0BI93njV_5wQjYx83w/viewform?pli=1"
+									target="_blank" class="external-link button is-normal is-rounded is-dark">
+
+									<span class="icon">
+										<i class="far fa-images"></i>
+									</span>
+
+									<span>
+										Data
+									</span>
+								</a>
+							</span>
+
+							<span class="link-block">
+								<a href="docs/eTraM Dataset Documentation.pdf" target="_blank"
+									class="external-link button is-normal is-rounded is-dark">
+
+									<span class="icon">
+										<i class="far fa-file-alt"></i>
+									</span>
+
+									<span>
+										Dataset Description
+									</span>
+								</a>
+							</span>
+
 							<br>
-							<div class="is-size-6 publication-authors">
-								<span class="author-block">
-									(* Equal Contribution)
-								</span>
-							</div>
-							
-						</div>
-						
-						
-						<div class="is-size-4 publication-authors">
-							<span class="author-block">
-								<b> Arizona State University <b>
+							<span class="link-block">
+								<a href="#" class="external-link button is-normal is-rounded is-dark" target="_blank">
+
+									<span class="icon">
+										<i class="fas fa-palette"></i>
+									</span>
+
+									<span>
+										Poster
+									</span>
+								</a>
 							</span>
-						</div>
-						
-						<div class="column has-text-centered">
-							<div class="publication-links">
-								
-								<span class="link-block">
-									<a href="https://openaccess.thecvf.com/content/CVPR2024/html/Verma_eTraM_Event-based_Traffic_Monitoring_Dataset_CVPR_2024_paper.html" target="_blank" class="button is-normal is-rounded is-dark">
-										
-										<span class="icon">
-											<i class="fas fa-file-pdf"></i>
-										</span>
-										
-										<span>
-											Paper
-										</span>
-										
-									</a>
-								</span>
-								
-								<span class="link-block">
-									<a href="https://arxiv.org/abs/2403.19976" target="_blank"  class="external-link button is-normal is-rounded is-dark">
-										<span class="icon">
-											<i class="ai ai-arxiv"></i>
-										</span>
-										
-										<span>
-											arXiv
-										</span>
-									</a>
-								</span>
-								
-								<span class="link-block">
-									<a href="https://github.com/eventbasedvision/eTraM" target="_blank" class="external-link button is-normal is-rounded is-dark">
-										
-										<span class="icon">
-											<i class="fab fa-github"></i>
-										</span>
-										
-										<span >
-											Code
-										</span>
-									</a>
-								</span>
-								
-								<span class="link-block">
-									<a href="https://docs.google.com/forms/d/e/1FAIpQLSfH2LI5oqWWfose-pBC3dsbaAMvRQuv0BI93njV_5wQjYx83w/viewform?pli=1" target="_blank"  class="external-link button is-normal is-rounded is-dark">
-										
-										<span class="icon">
-											<i class="far fa-images"></i>
-										</span>
-										
-										<span>
-											Data
-										</span>
-									</a>
-								</span>
-								
-                <span class="link-block">
-									<a href="docs/eTraM Dataset Documentation.pdf" target="_blank"  class="external-link button is-normal is-rounded is-dark">
-										
-										<span class="icon">
-											<i class="far fa-file-alt"></i>
-										</span>
-										
-										<span>
-											Dataset Description
-										</span>
-									</a>
-								</span>
-								
-                <br>	
-								<span class="link-block">
-									<a href="#" class="external-link button is-normal is-rounded is-dark" target="_blank" >
-									
-										<span class="icon">
-											<i class="fas fa-palette"></i>
-										</span>
-										
-										<span>
-											Poster
-										</span>
-									</a>
-								</span> 
-								
-																
-								<span class="link-block">
-									<a href="https://youtu.be/EsXsfNSAY6g?si=sQkiVo6fAzfYoOKh" class="external-link button is-normal is-rounded is-dark">
-										
-										<span class="icon">
-											<i class="fab fa-youtube"></i>
-										</span>
-										
-										<span>
-											Video
-										</span>
-									</a>
-								</span>
-								
-							
-								<span class="link-block">
-									<a href="docs/eTram_Supp.pdf" target="_blank" class="button is-normal is-rounded is-dark" target="_blank" >
-										<span class="icon">
-											<i class="fas fa-file-pdf"></i>
-										</span>
-										
-										<span>
-											Supplementary Material
-										</span>
-									</a>
-								</span>
-								
-							</div>
+
+
+							<span class="link-block">
+								<a href="https://youtu.be/EsXsfNSAY6g?si=sQkiVo6fAzfYoOKh"
+									class="external-link button is-normal is-rounded is-dark">
+
+									<span class="icon">
+										<i class="fab fa-youtube"></i>
+									</span>
+
+									<span>
+										Video
+									</span>
+								</a>
+							</span>
+
+
+							<span class="link-block">
+								<a href="docs/eTram_Supp.pdf" target="_blank" class="button is-normal is-rounded is-dark"
+									target="_blank">
+									<span class="icon">
+										<i class="fas fa-file-pdf"></i>
+									</span>
+
+									<span>
+										Supplementary Material
+									</span>
+								</a>
+							</span>
+
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>
-		
-		<section class="hero teaser">
-			<div class="container is-max-desktop">
-				<div class="hero-body">
-					<!-- <img src="media/eTraM/gifs/eTramGIF-cropped.gif" class="center"/> -->
-          <img src="media/eTraM/eTraM_teaser.png" class="center"/>
-						<h2 class="subtitles has-text-centered">
-						  <strong>eTraM</strong> a novel fully event-based traffic perception dataset curated using the state-of-the-art (SOTA) high-resolution Prophesee EVK4 HD event camera. 
-						  The dataset spans over 10 hours of annotated data from a static perspective that facilitates comprehensive traffic monitoring. 
-						  The dataset encompasses various weather and lighting conditions spanning challenging scenarios such as high glare, overexposure, underexposure, nighttime, twilight, and rainy days. 
-						  eTraM includes 2M bounding box annotations of traffic participants such as vehicles, pedestrians, and various micro-mobility.
-						</h2>
-				</div>
-			</div>
-		</section>
-		
-		<section class="hero teaser">
-			<div class="container is-max-desktop">
-				<div class="hero-body" style="padding: 0px;">
-					<center>
-						<h3 class="title is-3" style="margin-bottom: 0px;">Teaser Video</h3>
-							<!-- <iframe src="https://arizonastateu-my.sharepoint.com/personal/averma90_sundevils_asu_edu/_layouts/15/embed.aspx?UniqueId=4fe2ce95-9fa7-4217-8c73-66301672992b" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="eTramGIF.gif"></iframe> -->
-							<iframe width="640px" height="360px" src="https://www.youtube.com/embed/uhpCzhFRxdY?si=2wR8-fdWSESWyoMn&mute=1&autoplay=1&loop=1" title="eTraM Teaser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-				</div>
-			</div>
-		</section>
+		</div>
+	</section>
 
-		<section class="hero teaser">
-			<div class="container is-max-desktop">
-				<div class="columns is-centered has-text-centered">
-					<div class="column is-four-fifths">
-						<h2 class="title is-3">Abstract</h2>
-							<div class="content has-text-justified">
-								<p>Event cameras, with their high temporal and dynamic range and minimal memory usage, have found applications 
-								   in various fields. However, their potential in static traffic monitoring remains largely unexplored. To facilitate 
-								   this exploration, we present eTraM - a first-of-its-kind, fully event-based traffic monitoring dataset. eTraM offers 
-								   10 hrs of data from different traffic scenarios in various lighting and weather conditions, providing a comprehensive 
-								   overview of real-world situations. Providing 2M bounding box annotations, it covers eight distinct classes of traffic
-								   participants, ranging from vehicles to pedestrians and micro-mobility. eTraM's utility has been assessed 
-								   using state-of-the-art methods for traffic participant detection, including RVT, RED, and YOLOv8. 
-								   We quantitatively evaluate their ability to generalize on nighttime and unseen scenes. 
-								   Our findings substantiate the compelling potential of leveraging event cameras for traffic monitoring, 
-								   opening new avenues for research and application.
-								</p>
-							</div>
-					</div>
-				</div>
-    
+	<section class="hero teaser">
+		<div class="container is-max-desktop">
+			<div class="hero-body">
+				<!-- <img src="media/eTraM/gifs/eTramGIF-cropped.gif" class="center"/> -->
+				<img src="media/InterAct/InterAct_teaser.png" class="center" />
+				<h2 class="subtitles has-text-centered">
+					<strong>eTraM</strong> a novel fully event-based traffic perception dataset curated using the state-of-the-art
+					(SOTA) high-resolution Prophesee EVK4 HD event camera.
+					The dataset spans over 10 hours of annotated data from a static perspective that facilitates comprehensive
+					traffic monitoring.
+					The dataset encompasses various weather and lighting conditions spanning challenging scenarios such as high
+					glare, overexposure, underexposure, nighttime, twilight, and rainy days.
+					eTraM includes 2M bounding box annotations of traffic participants such as vehicles, pedestrians, and various
+					micro-mobility.
+				</h2>
 			</div>
-		</section>
-		
-		<section class="hero teaser">
-			<div class="container is-max-desktop">
- 
-				<div class="columns is-centered has-text-centered">
-					<div class="column is-four-fifths">
-						<hr>
-						<h2 class="title is-3">eTraM - Data Collection Setup and Diversity </h2>
-						<img src="media/eTraM/eTram_Collection.png" class="center"/>
-							<div class="content has-text-justified">
-								<br>  
-								<p> We utilized Prophesee EVK4 HD event camera, notable for its high resolution (1280×720 px), 
-								temporal resolution (over 10,000 fps), dynamic range (above 120 dB), and exceptional low light 
-								cutoff (0.08 Lux), to capture high-quality data. The event camera was strategically positioned at 
-								approximately 6m with a pitch angle of 35<sup>o</sup> to the ground. This configuration is 
-								chosen to maintain consistency with the placement of traffic cameras and ensure 
-								comprehensive coverage of interactions between diverse traffic participants.
-								</p>
-							</div>
-					</div>
-				</div>
-				<hr>
-			</div>
-		</section>
-		
-		
-		<section class="hero teaser">
-			<div class="container is-max-desktop">
- 
-				<div class="columns is-centered has-text-centered">
-					<div class="column is-four-fifths">
-						
-						<h2 class="title is-3">eTraM - Statistics </h2>
-						<img src="media/eTraM/eTraM_Stats.png" class="center"/>
-							<div class="content has-text-justified">
-								<br>  
-								<p>	eTraM encompasses three distinct traffic monitoring scenes with 5 hrs of intersection, 3 hrs 
-								of roadway, and 2 hr of local street data sequences. Data for each scene is collected at multiple locations. For instance, 
-								the intersection scene contains data from 2 four-way, threeway, daytime, nighttime, and twilight data totaling up to 10 hr of 
-								data with 5 hrs of daytime and nighttime data. eTraM contains 2M instances of 2D bounding box 
-                annotations for traffic participant detection. These annotations
-								additionally include object IDs, making it possible to
-								evaluate multi-object tracking, as shown in the supplementary
-								material. The annotation classes encompass a range
-								of traffic participants, from various vehicles (cars, trucks,
-								buses, and trams) to pedestrians and micro-mobility (bikes,
-								bicycles, and wheelchairs).
-																
-								</p>
-							</div>
-					</div>
-				</div>
-				<hr>
-			</div>
-		</section>
+		</div>
+	</section>
 
-    <section class="hero teaser">
-      <div class="container is-max-desktop" style="max-width: 200%; width: 1200px;">
-        <div class="hero-body">
-          <center>
-            <h3 class="title is-3">Sample Data Recordings</h3>
-            <div class="publication-videos">
-            	<div class="video-wrapper">
-                	<iframe src="https://www.youtube.com/embed/UwMj7E6g0fA?si=M7gRBP9z95jLQIL6" allow="accelerometer; autoplay; encrypted-media; gyroscope; web-share" allowfullscreen></iframe>
+	<section class="hero teaser">
+		<div class="container is-max-desktop">
+			<div class="hero-body" style="padding: 0px;">
+				<center>
+					<h3 class="title is-3" style="margin-bottom: 0px;">Teaser Video</h3>
+					<!-- <iframe src="https://arizonastateu-my.sharepoint.com/personal/averma90_sundevils_asu_edu/_layouts/15/embed.aspx?UniqueId=4fe2ce95-9fa7-4217-8c73-66301672992b" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="eTramGIF.gif"></iframe> -->
+					<iframe width="640px" height="360px"
+						src="https://www.youtube.com/embed/uhpCzhFRxdY?si=2wR8-fdWSESWyoMn&mute=1&autoplay=1&loop=1"
+						title="InterAct Teaser" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			</div>
+		</div>
+	</section>
+
+	<section class="hero teaser">
+		<div class="container is-max-desktop">
+			<div class="columns is-centered has-text-centered">
+				<div class="column is-four-fifths">
+					<h2 class="title is-3">Abstract</h2>
+					<div class="content has-text-justified">
+						<p>Traffic monitoring is crucial for urban mobility, road safety, and intelligent transportation systems
+							(ITS). Deep learning has advanced video-based traffic monitoring through video question answering
+							(VideoQA) models, enabling structured insight extraction from traffic videos. However, existing VideoQA
+							models struggle with the complexity of real-world traffic scenes, where multiple concurrent events unfold
+							across spatiotemporal dimensions. To address these challenges, this paper introduces InterAct VideoQA, a
+							curated dataset designed to benchmark and enhance VideoQA models for traffic monitoring tasks. The
+							InterAct VideoQA dataset comprises 8 hours of real-world traffic footage collected from diverse
+							intersections, segmented into 10-second video clips, with over 25,000 question-answer (QA) pairs covering
+							spatiotemporal dynamics, vehicle interactions, incident detection, and other critical traffic attributes.
+							State-of-the-art VideoQA models are evaluated on InterAct VideoQA, exposing challenges in reasoning over
+							fine-grained spatiotemporal dependencies within complex traffic scenarios. Additionally, fine-tuning these
+							models on InterAct VideoQA yields notable performance improvements, demonstrating the necessity of
+							domain-specific datasets for VideoQA. InterAct VideoQA is publicly available as a benchmark dataset to
+							facilitate future research in
+							real-world-deployable VideoQA models for intelligent transportation systems.
+						</p>
+					</div>
 				</div>
-				<div class="video-wrapper">
-					<iframe src="https://www.youtube.com/embed/0S0a5YZf0_I?si=Oc0lE7wg8DnLQhU0" allow="accelerometer; autoplay; encrypted-media; gyroscope; web-share" allowfullscreen></iframe>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="hero teaser">
+		<div class="container is-max-desktop">
+
+			<div class="columns is-centered has-text-centered">
+				<div class="column is-four-fifths">
+					<hr>
+					<h2 class="title is-3">InterAct - Data Collection Setup and Diversity </h2>
+					<img src="media/InterAct/InterAct_Collection.png" class="center" />
+					<div class="content has-text-justified">
+						<br>
+						<p> We utilized Prophesee EVK4 HD event camera, notable for its high resolution (1280×720 px),
+							temporal resolution (over 10,000 fps), dynamic range (above 120 dB), and exceptional low light
+							cutoff (0.08 Lux), to capture high-quality data. The event camera was strategically positioned at
+							approximately 6m with a pitch angle of 35<sup>o</sup> to the ground. This configuration is
+							chosen to maintain consistency with the placement of traffic cameras and ensure
+							comprehensive coverage of interactions between diverse traffic participants.
+						</p>
+					</div>
 				</div>
-				<div class="video-wrapper">
-					<iframe src="https://www.youtube.com/embed/K2pac1AgRac?si=LGL7LfjD-YQzEa-W" allow="accelerometer; autoplay; encrypted-media; gyroscope; web-share" allowfullscreen></iframe>
+			</div>
+			<hr>
+		</div>
+	</section>
+
+
+	<section class="hero teaser">
+		<div class="container is-max-desktop">
+
+			<div class="columns is-centered has-text-centered">
+				<div class="column is-four-fifths">
+
+					<h2 class="title is-3">InterAct - Statistics </h2>
+					<img src="media/InterAct/eTraM_Stats.png" class="center" />
+					<div class="content has-text-justified">
+						<br>
+						<p> eTraM encompasses three distinct traffic monitoring scenes with 5 hrs of intersection, 3 hrs
+							of roadway, and 2 hr of local street data sequences. Data for each scene is collected at multiple
+							locations. For instance,
+							the intersection scene contains data from 2 four-way, threeway, daytime, nighttime, and twilight data
+							totaling up to 10 hr of
+							data with 5 hrs of daytime and nighttime data. eTraM contains 2M instances of 2D bounding box
+							annotations for traffic participant detection. These annotations
+							additionally include object IDs, making it possible to
+							evaluate multi-object tracking, as shown in the supplementary
+							material. The annotation classes encompass a range
+							of traffic participants, from various vehicles (cars, trucks,
+							buses, and trams) to pedestrians and micro-mobility (bikes,
+							bicycles, and wheelchairs).
+
+						</p>
+					</div>
 				</div>
-            </div>
-          </center>
-        </div>
-        <hr>
-      </div>
-    </section>
-		
-				
-		<section class="hero teaser" id="BibTeX">
+			</div>
+			<hr>
+		</div>
+	</section>
+
+	<section class="hero teaser">
+		<div class="container is-max-desktop" style="max-width: 200%; width: 1200px;">
+			<div class="hero-body">
+				<center>
+					<h3 class="title is-3">Sample Data Recordings</h3>
+					<div class="publication-videos">
+						<div class="video-wrapper">
+							<iframe src="https://www.youtube.com/embed/UwMj7E6g0fA?si=M7gRBP9z95jLQIL6"
+								allow="accelerometer; autoplay; encrypted-media; gyroscope; web-share" allowfullscreen></iframe>
+						</div>
+						<div class="video-wrapper">
+							<iframe src="https://www.youtube.com/embed/0S0a5YZf0_I?si=Oc0lE7wg8DnLQhU0"
+								allow="accelerometer; autoplay; encrypted-media; gyroscope; web-share" allowfullscreen></iframe>
+						</div>
+						<div class="video-wrapper">
+							<iframe src="https://www.youtube.com/embed/K2pac1AgRac?si=LGL7LfjD-YQzEa-W"
+								allow="accelerometer; autoplay; encrypted-media; gyroscope; web-share" allowfullscreen></iframe>
+						</div>
+					</div>
+				</center>
+			</div>
+			<hr>
+		</div>
+	</section>
+
+
+	<section class="hero teaser" id="BibTeX">
 		<div class="container is-max-desktop content">
-		<center>
-			<h2 class="title">BibTeX</h2>
-		</center>
+			<center>
+				<h2 class="title">BibTeX</h2>
+			</center>
 			<pre><code>@InProceedings{Verma_2024_CVPR,
     author    = {Verma, Aayush Atul and Chakravarthi, Bharatesh and Vaghela, Arpitsinh and Wei, Hua and Yang, Yezhou},
     title     = {eTraM: Event-based Traffic Monitoring Dataset},
@@ -395,10 +427,10 @@
     year      = {2024},
     pages     = {22637-22646}
 }</code></pre>
-		 </div>
-		</section>
+		</div>
+	</section>
 
-		<!--<section class="section" id="Acknowledgements">
+	<!--<section class="section" id="Acknowledgements">
 		  <div class="container is-max-desktop content">
 			<h2 class="title">Acknowledgements</h2>
 			We sincerely thank Golnaz Ghiasi for providing guidance of using OpenSeg model. We also thank Huizhong Chen, Yin Cui, Tom Deurig, Dan Gnanapragasam, Xiuye Gu, Leonidas Guibas,
@@ -408,28 +440,32 @@
 		</section>-->
 
 
-<footer class="footer">
-  <div class="container">
-    <div class="content has-text-centered">
-    </div>
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-          <center> <p>
-            This website is licensed under a <a rel="license"
-                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-            This webpage template is from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>. 
-            We sincerely thank <a href="https://keunhong.com/">Keunhong Park</a> for developing and open-sourcing this template.
-          </p></center>
-        </div>
-      </div>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
+	<footer class="footer">
+		<div class="container">
+			<div class="content has-text-centered">
+			</div>
+			<div class="columns is-centered">
+				<div class="column is-8">
+					<div class="content">
+						<center>
+							<p>
+								This website is licensed under a <a rel="license"
+									href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+									Commons Attribution-ShareAlike 4.0 International License</a>.
+								This webpage template is from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>.
+								We sincerely thank <a href="https://keunhong.com/">Keunhong Park</a> for developing and open-sourcing
+								this template.
+							</p>
+						</center>
+					</div>
+				</div>
+				</p>
+			</div>
+		</div>
+		</div>
+		</div>
+	</footer>
 
 </body>
+
 </html>
