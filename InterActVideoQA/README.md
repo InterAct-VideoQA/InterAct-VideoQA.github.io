@@ -4,14 +4,7 @@ This project contains the source code for the [InterAct-VideoQA](https://interac
 # Cite
 If you find eTraM useful for your work please cite:
 ```
-@InProceedings{Verma_2024_CVPR,
-    author    = {Verma, Aayush Atul and Chakravarthi, Bharatesh and Vaghela, Arpitsinh and Wei, Hua and Yang, Yezhou},
-    title     = {eTraM: Event-based Traffic Monitoring Dataset},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month     = {June},
-    year      = {2024},
-    pages     = {22637-22646}
-}
+
 ```
 
 # Website License
