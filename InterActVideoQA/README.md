@@ -2,7 +2,7 @@
 This project contains the source code for the [InterAct-VideoQA](https://interact-videoqa.github.io/InterActVideoQA/).
 
 # Cite
-If you find eTraM useful for your work please cite:
+If you find InterActVideoQA useful for your work please cite:
 ```
 
 ```
