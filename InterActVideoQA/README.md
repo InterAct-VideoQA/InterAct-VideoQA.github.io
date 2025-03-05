@@ -1,5 +1,5 @@
 # InterAct-VideoQA
-This project contains the source code for the [InterAct-VideoQA](https://interact-videoqa.github.io/InterActVideoQA/).
+This project contains the source code for the [InterAct-VideoQA](https://github.com/joe-rabbit/interact_videoqa).
 
 # Cite
 If you find InterActVideoQA useful for your work please cite:
