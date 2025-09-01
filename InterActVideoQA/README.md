@@ -4,7 +4,15 @@ This project contains the source code for the [InterAct-VideoQA](https://github.
 # Cite
 If you find InterActVideoQA useful for your work please cite:
 ```
-
+@misc{vishal2025interactvideoreasoningrichvideoqa,
+      title={InterAct-Video: Reasoning-Rich Video QA for Urban Traffic}, 
+      author={Joseph Raj Vishal and Divesh Basina and Rutuja Patil and Manas Srinivas Gowda and Katha Naik and Yezhou Yang and Bharatesh Chakravarthi},
+      year={2025},
+      eprint={2507.14743},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2507.14743}, 
+}
 ```
 
 # Website License
